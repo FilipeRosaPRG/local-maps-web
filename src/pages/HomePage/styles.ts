@@ -33,7 +33,7 @@ export const ButtonBox = styled.div`
   color: ${(props) => props.theme.white};
   height: 50px;
   width: 40px;
-  font-size: 30px;
+  font-size: 24px;
   position: absolute;
   left: 0;
   top: 0;

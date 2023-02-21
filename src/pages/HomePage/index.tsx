@@ -9,7 +9,7 @@ import {
     ButtonBox,
 } from "./styles";
 import { Link } from 'react-router-dom';
-
+import { IoExitOutline } from 'react-icons/io5';
 
 export default function HomePage() {
     return (
@@ -21,7 +21,7 @@ export default function HomePage() {
                 <Link to={"/new"}>
                     <Button>
                         <ButtonBox>
-                            {">"}
+                            <IoExitOutline />
                         </ButtonBox>
                         Cadastre um ponto comercial
                     </Button>
